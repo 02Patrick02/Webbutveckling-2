@@ -1,0 +1,38 @@
+body{
+    background:#0cd7ed;
+	background: linear-gradient(#0cd7ed, #0c31ed);
+	background-repeat:no-repeat;
+	height:95vh;
+	width:100vw;
+}
+
+header {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+nav{
+	font-size:2em;
+	font-family: Arial;
+}
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 5px;
+    background-color: lightblue;
+  }
+
+
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 1em;
+    width: 100%;
+    color: black;
+    text-align: center;
+ }
