@@ -6,27 +6,19 @@ body{
 	width:100vw;
 }
 
-header {
-    display: flex;
-    height: 5vh;
-    align-items: center;
-    font-size: 1.5em;
-}
-
 nav{
 	font-size:2em;
 	font-family: Arial;
 }
 li {
     float: left;
-  }
+}
   
-  a {
+a {
     display: block;
     padding: 5px;
     background-color: lightblue;
-  }
-
+}
 
 footer {
     position:fixed;
@@ -35,4 +27,4 @@ footer {
     width: 100%;
     color: black;
     text-align: center;
- }
+}
